@@ -57,7 +57,7 @@ def pattern(sequence, k, d):
 def motifenumeration(dna, k, d):
     patterns = set()
     k_mer_1 = pattern(dna[0], k, d)
-    print(*k_mer_1)
+    #print(*k_mer_1)
     for sequence in dna[1:]:
         k_mer_seq = pattern(sequence, k, d)
         for k_mer in k_mer_1:
