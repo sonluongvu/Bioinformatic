@@ -1,10 +1,10 @@
 # Input: Strings Pattern and Text as well as an integer d.
 # Output: Countd(Text, Pattern).
 
-# Read input
+
 from types import NoneType
 
-
+# Read input
 print('path for input files')
 x = input()
 x = str(x)
