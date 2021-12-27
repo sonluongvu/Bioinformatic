@@ -44,6 +44,7 @@ def profile_generator(df_motif):
         T_count = T_count/t
         profile.append([A_count, C_count, G_count, T_count])
     df_profile = pd.DataFrame(profile)
+    return df_profile
 
 # Find the median string from a profile DataFrame:
 def median_string(df_profile):
